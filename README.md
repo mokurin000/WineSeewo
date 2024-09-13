@@ -1,8 +1,8 @@
 ## 测试环境
 
-Kylin 24.03
+Kylin 24.03 x86_64
 
-Wine 9.17-wow64
+Wine 9.17-wow64 ([patched](https://github.com/mokurin000/Wine-Builds-Seewo/))
 
 ## 部署命令
 
