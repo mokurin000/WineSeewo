@@ -4,7 +4,9 @@ Kylin 24.03 x86_64
 
 Wine 9.17-wow64 ([patched](https://github.com/mokurin000/Wine-Builds-Seewo/))
 
-## 部署命令
+## 部署
+
+安装patch好的wine。
 
 ```bash
 ./install_wine.sh
@@ -18,9 +20,7 @@ source ~/.bashrc
 ./install_deps.sh
 ```
 
-> GoDaddy被认为自签证书：
-> 
-> wget wrapper传参禁用验证；之后走缓存
+应用希沃环境配置脚本。
 
 ```bash
 ./env_patch.sh
@@ -30,6 +30,6 @@ source ~/.bashrc
 
 ### 次要
 
+- 无法输入中文。
 - 无法方便地切换课件 （点击范围小）
-
 - 视频播放较卡顿（DirectShow通病）
